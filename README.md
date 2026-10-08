@@ -1,9 +1,7 @@
 # 人生主线 APK
 
-用于通过 Android 兼容环境（如卓易通）安装使用的「人生主线」App。
+卓易通安装版 Android APK 工程。GitHub Actions 会在 main 分支更新后自动构建 debug APK。
 
-本项目包含本地离线版核心功能与 GitHub Actions 自动构建 APK。
+## 安装
 
-## 构建
-
-在 GitHub Actions 中运行 `Build LifeMainline APK` 工作流，构建完成后下载 `app-debug` artifact。
+打开 Actions → Build LifeMainline APK → 等待完成 → 下载 LifeMainline-debug-apk artifact → 解压 app-debug.apk → 手机用卓易通打开安装。
